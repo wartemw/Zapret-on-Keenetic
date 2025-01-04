@@ -73,7 +73,7 @@ opkg install coreutils-sort curl git-http grep gzip ipset iptables kmod_ndms nan
 ### 3. Загружаем репозиторий Zapret:
 ```shell
 cd /opt/tmp
-git clone --depth=1 https://github.com/bol-van/zapret.git
+git clone --depth=1 https://github.com/wartemw/Zapret-on-Keenetic.git
 ```
 
 ### 4. Начнинаем устновку, выполняем скрипт:
