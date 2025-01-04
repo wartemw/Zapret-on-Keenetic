@@ -1,8 +1,8 @@
-## [README принципа работы от разработчика>>](https://github.com/wartemw/Zapret-on-Keenetic/blob/master/docs/readme.txt)
+## [README принципа работы от разработчика>>](https://github.com/wartemw/mymymy/blob/master/docs/readme.txt)
 
 # Подробная обновляемая инструкция настройки репозитория [Zapret](https://github.com/bol-van/zapret) от [bol-van](https://github.com/bol-van) на Keenetic.
 
-[Дискуссия по инструкции](https://github.com/wartemw/Zapret-on-Keenetic/discussions/3)
+[Дискуссия по инструкции](https://github.com/wartemw/mymymy/discussions/3)
 
 ## Краткое описание.
 
@@ -14,7 +14,7 @@
 
 ### P.S. Это не VPN и не прокси, это средство для обмана (подмены) пакетов tcp и udp протокола, не режет скорость, повышается анонимность, а также не ломает то, что и так хорошо работало.
 
-### По необходимости улучшаются: [config](https://github.com/wartemw/Zapret-on-Keenetic?tab=readme-ov-file#14-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9-%D0%BF%D1%83%D0%BD%D0%BA%D1%82-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3-zapret-%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B8%D1%82-%D0%B4%D0%BB%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BD%D1%81%D1%82%D0%B0-%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%BE%D0%B2-%D1%81-pppoe-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D1%81%D1%8F-%D0%BD%D0%B0-%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC-%D0%B4%D0%BE%D0%BC%D1%80%D1%83), [hostlists](https://github.com/wartemw/Zapret-on-Keenetic#15-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9-%D0%BF%D1%83%D0%BD%D0%BA%D1%82-%D0%B4%D0%B0%D0%BB%D0%B5%D0%B5-%D0%B2%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC-%D1%87%D1%82%D0%BE-%D0%B1%D1%83%D0%B4%D0%B5%D0%BC-%D1%83%D1%81%D0%BA%D0%BE%D1%80%D1%8F%D1%82%D1%8C), [zapret](https://github.com/wartemw/Zapret-on-Keenetic?tab=readme-ov-file#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-zapret-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D0%B2-%D1%8D%D1%82%D1%83-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%83-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA-%D0%B2-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D1%81%D1%8F-%D0%B8-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82-%D0%BA%D0%BE%D0%B4). После обновления хотя бы одного из них, обязательно [перезагружаем entware(openwrt)](https://github.com/wartemw/Zapret-on-Keenetic?tab=readme-ov-file#16-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC-entwareopenwrt-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9-%D0%BD%D0%B8%D0%B6%D0%B5), а также в конце инструкции вас ждут полезные команды.
+### По необходимости улучшаются: [config](https://github.com/wartemw/mymymy?tab=readme-ov-file#14-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9-%D0%BF%D1%83%D0%BD%D0%BA%D1%82-%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC-%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3-zapret-%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D0%B8%D1%82-%D0%B4%D0%BB%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BD%D1%81%D1%82%D0%B0-%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%BE%D0%B2-%D1%81-pppoe-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D1%81%D1%8F-%D0%BD%D0%B0-%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC-%D0%B4%D0%BE%D0%BC%D1%80%D1%83), [hostlists](https://github.com/wartemw/mymymy#15-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D1%8F%D0%B5%D0%BC%D1%8B%D0%B9-%D0%BF%D1%83%D0%BD%D0%BA%D1%82-%D0%B4%D0%B0%D0%BB%D0%B5%D0%B5-%D0%B2%D1%8B%D0%B1%D0%B8%D1%80%D0%B0%D0%B5%D0%BC-%D1%87%D1%82%D0%BE-%D0%B1%D1%83%D0%B4%D0%B5%D0%BC-%D1%83%D1%81%D0%BA%D0%BE%D1%80%D1%8F%D1%82%D1%8C), [zapret](https://github.com/wartemw/mymymy?tab=readme-ov-file#%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B9-zapret-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D0%B2-%D1%8D%D1%82%D1%83-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%83-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA-%D0%B2-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B5%D0%B5-%D0%B2%D1%80%D0%B5%D0%BC%D1%8F-%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D1%81%D1%8F-%D0%B8-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%BE-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82-%D0%BA%D0%BE%D0%B4). После обновления хотя бы одного из них, обязательно [перезагружаем entware(openwrt)](https://github.com/wartemw/mymymy?tab=readme-ov-file#16-%D0%BF%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B6%D0%B0%D0%B5%D0%BC-entwareopenwrt-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9-%D0%BD%D0%B8%D0%B6%D0%B5), а также в конце инструкции вас ждут полезные команды.
 
 ## Технические требования.
 
@@ -28,7 +28,7 @@ Keenetic в курсе о [проблеме](https://forum.keenetic.com/topic/18
 <details>
     <summary>Обязательно привести настройки DNS к виду как на скриншоте</summary>
     
-![DoT](https://github.com/wartemw/Zapret-on-Keenetic/blob/master/images/DoT.png)
+![DoT](https://github.com/wartemw/mymymy/blob/master/images/DoT.png)
     
 </details>
 
@@ -55,7 +55,7 @@ exec sh
 
 ### Если видим приветствие BusyBox built-in shell (ash), переходим к установке, левой кнопкой мыши нажимая на квадратики копируем код, а правой вставляем в putty.
 
-## [Эксперементальный упрощенный способ установки.](https://github.com/wartemw/Zapret-on-Keenetic/blob/master/readme_ez.md)
+## [Эксперементальный упрощенный способ установки.](https://github.com/wartemw/mymymy/blob/master/readme_ez.md)
 
 ## Классическая установка.
 
@@ -73,7 +73,7 @@ opkg install coreutils-sort curl git-http grep gzip ipset iptables kmod_ndms nan
 ### 3. Загружаем репозиторий Zapret:
 ```shell
 cd /opt/tmp
-git clone --depth=1 https://github.com/wartemw/Zapret-on-Keenetic.git
+git clone --depth=1 https://github.com/wartemw/mymymy.git
 ```
 
 ### 4. Начнинаем устновку, выполняем скрипт:
@@ -99,13 +99,13 @@ ln -fs /opt/zapret/init.d/sysv/zapret /opt/etc/init.d/S90-zapret
 ### 9. Загружаем готовый стартовый скрипт с dnsmasq внутри:
 ```shell
 cd /opt/zapret/init.d/sysv
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/zapret/init.d/sysv/zapret
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/zapret/init.d/sysv/zapret
 ```
 
 ### 10. Загружаем готовый скрипт, чтобы роутер не забывал правила:
 ```shell
 cd /opt/etc/ndm/netfilter.d
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/etc/ndm/netfilter.d/000-zapret.sh
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/etc/ndm/netfilter.d/000-zapret.sh
 ```
 
 ### 11. Исполняем:
@@ -116,7 +116,7 @@ chmod +x /opt/etc/ndm/netfilter.d/000-zapret.sh
 ### 12. Загружаем готовый скрипт для перевода net.netfilter.nf_conntrack_checksum в 0:
 ```shell
 cd /opt/etc/init.d
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/etc/init.d/S00fix
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/etc/init.d/S00fix
 ```
 
 ### 13. Исполняем:
@@ -128,25 +128,25 @@ chmod +x /opt/etc/init.d/S00fix
 #### Основной (Работает на Ростелеком лучший выбор, ИСС не работает контент на фейсбук, Annex.PRO, МТС тестирование, Дом.ру тестирование)
 ```shell
 cd /opt/zapret
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/zapret/config
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/zapret/config
 ```
 
 #### Альтернативный (Работает на Ростелеком, ИСС лучший выбор, МТС тестирование, Дом.ру тестирование)
 ```shell
 cd /opt/zapret
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/zapret_alt/config
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/zapret_alt/config
 ```
 
 #### Упрощенный (Работает на Ростелеком, ИСС, МТС тестирование, Дом.ру тестирование)
 ```shell
 cd /opt/zapret
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/zapret_lite/config
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/zapret_lite/config
 ```
 
 #### Тестовый (Эксперементально выясняются новые стратегии для разных операторов)
 ```shell
 cd /opt/zapret
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/zapret_test/config
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/opt/zapret_test/config
 ```
 
 ### 15. (обновляемый пункт) Далее выбираем, что будем ускорять:
@@ -154,25 +154,25 @@ curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/opt/
 #### Если необходимо ускорить только youtube, загружаем:
 ```shell
 cd /opt/zapret/ipset
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/hostlists/youtube/zapret-hosts-user.txt
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/hostlists/youtube/zapret-hosts-user.txt
 ```
 
 #### Если необходимо ускорить youtube и соц. сети f, i, t(x):
 ```shell
 cd /opt/zapret/ipset
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/hostlists/yfit/zapret-hosts-user.txt
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/hostlists/yfit/zapret-hosts-user.txt
 ```
 
 #### Если необходимо ускорить более 100к сайтов:
 ```shell
 cd /opt/zapret/ipset
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/hostlists/blacklist-russia/zapret-hosts-user.txt
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/hostlists/blacklist-russia/zapret-hosts-user.txt
 ```
 
 #### Загружаем список исключений с доменами, которые могут работать некорректно (по желанию, например у кого проблемы с входом в сбербанк):
 ```shell
 cd /opt/zapret/ipset
-curl -O https://raw.githubusercontent.com/wartemw/Zapret-on-Keenetic/master/hostlists/zapret-hosts-user-exclude.txt
+curl -O https://raw.githubusercontent.com/wartemw/mymymy/master/hostlists/zapret-hosts-user-exclude.txt
 ```
 
 ### 16. Перезагружаем entware(openwrt) командой ниже:
