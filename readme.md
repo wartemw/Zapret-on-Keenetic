@@ -78,7 +78,7 @@ git clone --depth=1 https://github.com/wartemw/Zapret-on-Keenetic.git
 
 ### 4. Начнинаем устновку, выполняем скрипт:
 ```shell
-cd zapret
+cd Zapret-on-Keenetic
 ./install_easy.sh
 ```
 
